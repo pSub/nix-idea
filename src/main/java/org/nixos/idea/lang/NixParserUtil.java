@@ -1,8 +1,10 @@
-package org.nixos.idea.psi;
+package org.nixos.idea.lang;
 
 import com.intellij.lang.ASTNode;
 import com.intellij.lang.PsiBuilder;
 import com.intellij.lang.parser.GeneratedParserUtilBase;
+import org.nixos.idea.psi.NixAttrAssign;
+import org.nixos.idea.psi.NixTypes;
 
 import java.lang.CharSequence;
 

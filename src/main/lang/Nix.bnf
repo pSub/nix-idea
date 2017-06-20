@@ -1,6 +1,6 @@
 {
   parserClass="org.nixos.idea.lang.NixParser"
-  parserUtilClass="org,nixos.lang.psi.NixParserUtil"
+  parserUtilClass="org.nixos.idea.lang.NixParserUtil"
   extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
   extendedPin=false
   psiClassPrefix="Nix"
@@ -12,7 +12,7 @@
   elementTypeClass="org.nixos.idea.psi.NixElementType"
   tokenTypeClass="org.nixos.idea.psi.NixTokenType"
 
-  psiImplUtilClass="org.nixos.idea.psi.NixParserUtil"
+  psiImplUtilClass="org.nixos.idea.lang.NixParserUtil"
 
   parserImports=[
     "static com.intellij.lang.parser.GeneratedParserUtilBase.*"
