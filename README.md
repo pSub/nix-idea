@@ -1,6 +1,6 @@
 # NixIDEA - A Nix language plugin for Intellij IDEA.
 
-[![Build Status](https://travis-ci.org/NixOS/nix-idea.svg?branch=master)](https://travis-ci.org/NixOS/nix-idea)
+[![Build Status](https://travis-ci.org/pSub/nix-idea.svg?branch=master)](https://travis-ci.org/pSub/nix-idea)
 
 This plugin has the goal of being generally useful when working with nixpkgs/NixOS/nixops, it aims
 to provide the following:
